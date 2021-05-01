@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "chexseg"
+version = "0.1.0"
+description = "Project code for CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation"
+authors = ["Soham Gadgil <sgadgil@stanford.edu>", "Mark Endo <markendo@stanford.edu>", "Emily Wen <emilywen@stanford.edu>", "Andrew Y. Ng <ang@cs.stanford.edu>", "Pranav Rajpurkar <pranavsr@cs.stanford.edu>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7.1,<4"
+captum="0.2.0"
+configparser="5.0.0"
+GitPython="3.1.8"
+grpcio="1.32.0"
+idna="2.10"
+importlib-metadata="2.0.0"
+joblib="0.16.0"
+kiwisolver="1.2.0"
+Markdown="3.2.2"
+matplotlib="3.3.2"
+numpy="1.19.3"
+oauthlib="3.1.0"
+opencv-python="4.4.0.44"
+packaging="20.4"
+pathtools="0.1.2"
+Pillow="7.2.0"
+promise="2.3"
+protobuf="3.13.0"
+psutil="5.7.2"
+pyasn1="0.4.8"
+pyasn1-modules="0.2.8"
+pytz="2020.1"
+PyYAML="5.3.1"
+requests="2.24.0"
+requests-oauthlib="1.3.0"
+rsa="4.6"
+segmentation_models_pytorch = { git = "https://github.com/markendo/segmentation_models.pytorch.git", branch = "master"}
+pandas = "^1.2.3"
+wandb = "^0.10.21"
+scipy = "^1.6.1"
+pytorch-lightning="0.9.0"
+scikit-learn = "^0.24.1"
+albumentations = "^0.5.2"
+pycocotools = "^2.0.2"
+h5py = "^3.2.1"
+torch="1.4.0"
+torchvision="0.5.0"
+timm="0.2.1"
+pydensecrf= { git = "https://github.com/lucasb-eyer/pydensecrf.git" }
+
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
