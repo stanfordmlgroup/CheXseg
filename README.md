@@ -4,7 +4,7 @@ Repo for project on combing expert annotations with DNN-generated saliency maps 
 ![Workflows of the different methods analysed for chest X-ray segmentation](supervision_levels.png)
 
 ## Pre-trained Models
-Model checkpoints from our experiments are available for download [here](https://stanford.box.com/s/ze675l76emijpd5021mkwidosot445cm).
+Model checkpoints from our experiments are available for download [here](https://stanfordmedicine.box.com/s/ze675l76emijpd5021mkwidosot445cm).
 
 ## Installation
 
